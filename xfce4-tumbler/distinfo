@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (tumbler-0.1.27.tar.bz2) = 247203beefab80ea390bd1ebed0373229e2719f1
+RMD160 (tumbler-0.1.27.tar.bz2) = e7bcc3ca76725a706eb70216acdd863000308784
+Size (tumbler-0.1.27.tar.bz2) = 504996 bytes
+SHA1 (patch-tumblerd_Makefile.in) = fe0c3fc147e34a9a75d867a2d33c8034ced8394d

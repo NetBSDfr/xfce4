@@ -1,0 +1,22 @@
+@comment $NetBSD$
+lib/gtk-3.0/3.0.0/theming-engines/libxfce.la
+share/themes/Xfce-4.0/gtk-3.0/gtk.css
+share/themes/Xfce-4.2/gtk-3.0/gtk.css
+share/themes/Xfce-4.4/gtk-3.0/gtk.css
+share/themes/Xfce-4.6/gtk-3.0/gtk.css
+share/themes/Xfce-b5/gtk-3.0/gtk.css
+share/themes/Xfce-basic/gtk-3.0/gtk.css
+share/themes/Xfce-cadmium/gtk-3.0/gtk.css
+share/themes/Xfce-curve/gtk-3.0/gtk.css
+share/themes/Xfce-dawn/gtk-3.0/gtk.css
+share/themes/Xfce-dusk/gtk-3.0/gtk.css
+share/themes/Xfce-kde2/gtk-3.0/gtk.css
+share/themes/Xfce-kolors/gtk-3.0/gtk.css
+share/themes/Xfce-light/gtk-3.0/gtk.css
+share/themes/Xfce-orange/gtk-3.0/gtk.css
+share/themes/Xfce-redmondxp/gtk-3.0/gtk.css
+share/themes/Xfce-saltlake/gtk-3.0/gtk.css
+share/themes/Xfce-smooth/gtk-3.0/gtk.css
+share/themes/Xfce-stellar/gtk-3.0/gtk.css
+share/themes/Xfce-winter/gtk-3.0/gtk.css
+share/themes/Xfce/gtk-3.0/gtk.css

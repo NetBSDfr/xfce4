@@ -1,0 +1,13 @@
+$NetBSD: patch-ac,v 1.2 2009/09/16 01:15:34 reed Exp $
+
+--- plugins/thunar-uca/Makefile.in.orig	2012-12-02 21:09:59.000000000 +0000
++++ plugins/thunar-uca/Makefile.in
+@@ -463,7 +463,7 @@ thunar_uca_la_LIBADD = \
+ thunar_uca_la_DEPENDENCIES = \
+ 	$(top_builddir)/thunarx/libthunarx-$(THUNARX_VERSION_API).la
+ 
+-defaultsdir = $(sysconfdir)/xdg/Thunar
++defaultsdir = $(datadir)/examples/xfce4/Thunar
+ defaults_in_files = uca.xml.in
+ defaults_DATA = $(defaults_in_files:.xml.in=.xml)
+ EXTRA_DIST = \

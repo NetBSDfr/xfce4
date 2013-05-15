@@ -1,0 +1,19 @@
+$NetBSD$
+
+--- scripts/Makefile.in.orig	2013-02-15 21:21:55.000000000 +0000
++++ scripts/Makefile.in
+@@ -323,12 +323,12 @@ edit = $(SED) \
+ 	-e "s,@_docdir_\@,$$(dirname $(docdir)),g" \
+ 	-e "s,@_sysconfdir_\@,$(sysconfdir),g"
+ 
+-conffilesdir = @sysconfdir@/xdg/xfce4
++conffilesdir = $(datadir)/examples/xfce4
+ conffiles_DATA = \
+ 	xinitrc \
+ 	Xft.xrdb
+ 
+-autostartdir = $(sysconfdir)/xdg/autostart
++autostartdir = $(datadir)/examples/xfce4/autostart
+ autostart_in_files = xscreensaver.desktop.in
+ autostart_DATA = $(autostart_in_files:.desktop.in=.desktop)
+ EXTRA_DIST = \

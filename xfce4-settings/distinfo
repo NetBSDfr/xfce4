@@ -1,0 +1,9 @@
+$NetBSD: distinfo,v 1.4 2011/09/08 00:22:49 joerg Exp $
+
+SHA1 (xfce4-settings-4.10.0.tar.bz2) = 4ecf8c6db4e5ad9ed2fa04a34c65532cfaf362db
+RMD160 (xfce4-settings-4.10.0.tar.bz2) = d2581f81be44edcbd6de400ce9acdfc10d676d41
+Size (xfce4-settings-4.10.0.tar.bz2) = 782922 bytes
+SHA1 (patch-aa) = ed1184fba3ebc8220ea06d15720000b95a5bf087
+SHA1 (patch-dialogs_appearance-settings_main.c) = 70863360f45767abc3a4553b3ccb7c8aac986f34
+SHA1 (patch-xfce4-settings-manager_Makefile.in) = 09824c3da315b51d61587dcf8500d0e378fe399b
+SHA1 (patch-xfsettingsd_xsettings.xml) = 84c9ad4cf49cd52feaf19a1b5d4edb1c5403bccf

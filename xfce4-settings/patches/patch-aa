@@ -1,0 +1,16 @@
+$NetBSD: patch-aa,v 1.1.1.1 2009/09/16 01:04:02 reed Exp $
+
+--- xfsettingsd/Makefile.in.orig	2012-04-28 20:48:34.000000000 +0000
++++ xfsettingsd/Makefile.in
+@@ -457,9 +457,9 @@ xfsettingsd_LDADD = $(GTK_LIBS) $(GLIB_L
+ 	$(LIBXFCE4KBD_PRIVATE_LIBS) $(LIBXKLAVIER_LIBS) $(XI_LIBS) \
+ 	$(LIBX11_LIBS) $(LIBNOTIFY_LIBS) $(FONTCONFIG_LIBS) -lm \
+ 	$(am__append_3)
+-settingsdir = $(sysconfdir)/xdg/xfce4/xfconf/xfce-perchannel-xml
++settingsdir = $(datadir)/examples/xfce4/xfconf/xfce-perchannel-xml
+ settings_DATA = xsettings.xml
+-autostartdir = $(sysconfdir)/xdg/autostart
++autostartdir = $(datadir)/examples/xfce4/autostart
+ autostart_in_files = xfsettingsd.desktop.in
+ autostart_DATA = $(autostart_in_files:.desktop.in=.desktop)
+ EXTRA_DIST = \

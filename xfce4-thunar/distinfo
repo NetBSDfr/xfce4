@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.7 2012/01/25 23:37:16 tez Exp $
+
+SHA1 (Thunar-1.6.0.tar.bz2) = 925d17eebd6976030519c5981379a80e32b90b6d
+RMD160 (Thunar-1.6.0.tar.bz2) = d9998d08450e6633ebce48a4a5ee3e3ab4153627
+Size (Thunar-1.6.0.tar.bz2) = 1979179 bytes
+SHA1 (patch-ac) = 88f5b96bfc1d112f9b2222d1fcfc48a557c96efd

@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- xfce4-settings-manager/Makefile.in.orig	2012-04-28 20:48:34.000000000 +0000
++++ xfce4-settings-manager/Makefile.in
+@@ -424,7 +424,7 @@ xfce4_settings_manager_LDADD = \
+ 	$(EXO_LIBS) \
+ 	$(GARCON_LIBS)
+ 
+-menudir = $(sysconfdir)/xdg/menus
++menudir = $(datadir)/examples/xfce4/menus
+ menu_DATA = xfce-settings-manager.menu
+ desktopdir = $(datadir)/applications
+ desktop_in_files = xfce-settings-manager.desktop.in
