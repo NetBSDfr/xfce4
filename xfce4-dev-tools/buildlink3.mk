@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	xfce4-dev-tools
 XFCE4_DEV_TOOLS_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.xfce4-dev-tools+=	xfce4-dev-tools>=4.6.0
-BUILDLINK_PKGSRCDIR.xfce4-dev-tools?=	../../devel/xfce4-dev-tools
+BUILDLINK_PKGSRCDIR.xfce4-dev-tools?=	../../xfce4/xfce4-dev-tools
 BUILDLINK_DEPMETHOD.xfce4-dev-tools?=	build
 .endif # XFCE4_DEV_TOOLS_BUILDLINK3_MK
 
