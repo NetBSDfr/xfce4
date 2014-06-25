@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	xfce4-mixer
 XFCE4_MIXER_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.xfce4-mixer+=	xfce4-mixer>=4.6.0
-BUILDLINK_PKGSRCDIR.xfce4-mixer?=	../../audio/xfce4-mixer
+BUILDLINK_PKGSRCDIR.xfce4-mixer?=	../../xfce4/xfce4-mixer
 
 .endif # XFCE4_MIXER_BUILDLINK3_MK
 
