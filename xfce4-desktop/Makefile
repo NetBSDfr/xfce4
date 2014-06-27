@@ -37,7 +37,7 @@ MAKE_DIRS+=	${PREFIX}/share/xfce4/panel-plugins
 .include "../../xfce4/xfce4-thunar/buildlink3.mk"
 #.include "../../textproc/libxml2/buildlink3.mk"
 .include "../../xfce4/libxfce4ui/buildlink3.mk"
-.include "../../xfce4/libxfce4menu/buildlink3.mk"
+#.include "../../xfce4/libxfce4menu/buildlink3.mk"
 .include "../../xfce4/libxfce4util/buildlink3.mk"
 .include "../../xfce4/xfce4-exo/buildlink3.mk"
 .include "../../xfce4/xfce4-panel/buildlink3.mk"
