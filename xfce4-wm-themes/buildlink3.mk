@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	xfce4-wm-themes
 XFCE4_WM_THEMES_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.xfce4-wm-themes+=	xfce4-wm-themes>=4.6.0
-BUILDLINK_PKGSRCDIR.xfce4-wm-themes?=	../../wm/xfce4-wm-themes
+BUILDLINK_PKGSRCDIR.xfce4-wm-themes?=	../../xfce4/xfce4-wm-themes
 
 .endif # XFCE4_WM_THEMES_BUILDLINK3_MK
 

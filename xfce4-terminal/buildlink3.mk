@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	xfce4-terminal
 XFCE4_TERMINAL_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.xfce4-terminal+=	xfce4-terminal>=0.2.10
-BUILDLINK_PKGSRCDIR.xfce4-terminal?=	../../x11/xfce4-terminal
+BUILDLINK_PKGSRCDIR.xfce4-terminal?=	../../xfce4/xfce4-terminal
 
 .endif # XFCE4_TERMINAL_BUILDLINK3_MK
 

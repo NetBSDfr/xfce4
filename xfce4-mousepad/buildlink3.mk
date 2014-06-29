@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	xfce4-mousepad
 XFCE4_MOUSEPAD_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.xfce4-mousepad+=	xfce4-mousepad>=0.2.16
-BUILDLINK_PKGSRCDIR.xfce4-mousepad?=	../../wip/xfce4-mousepad
+BUILDLINK_PKGSRCDIR.xfce4-mousepad?=	../../xfce4/xfce4-mousepad
 
 .endif # XFCE4_MOUSEPAD_BUILDLINK3_MK
 

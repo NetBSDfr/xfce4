@@ -7,9 +7,9 @@ XFCE4_XARCHIVER_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.xfce4-xarchiver+=	xfce4-xarchiver>=0.5.2nb1
 BUILDLINK_ABI_DEPENDS.xfce4-xarchiver+=	xfce4-xarchiver>=0.5.2nb15
-BUILDLINK_PKGSRCDIR.xfce4-xarchiver?=	../../sysutils/xfce4-xarchiver
+BUILDLINK_PKGSRCDIR.xfce4-xarchiver?=	../../xfce4/xfce4-xarchiver
 
-.include "../../x11/libxfce4gui/buildlink3.mk"
+.include "../../xfce4/libxfce4gui/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .endif # XFCE4_XARCHIVER_BUILDLINK3_MK
 
