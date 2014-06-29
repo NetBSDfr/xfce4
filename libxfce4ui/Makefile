@@ -16,16 +16,14 @@ PKG_SYSCONFSUBDIR=	xdg
 CONF_FILES=		${EGDIR}/xfce4-keyboard-shortcuts.xml \
 	${PKG_SYSCONFDIR}/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
 
-#MAKE_DIRS+=	${PKG_SYSCONFDIR} ${PREFIX}/include/xfce4
-#MAKE_DIRS+=	${XFCE4_EGBASE} ${XFCE4_EGBASE:Q}/xfconf ${EGDIR}
-MAKE_DIRS+=		${PKG_SYSCONFDIR}/xfce4/xfconf/xfce-perchannel-xml/
+MAKE_DIRS+=	${PKG_SYSCONFDIR}/xfce4/xfconf/xfce-perchannel-xml/
 #OWN_DIRS+=	${PKG_SYSCONFDIR}/xfce4 ${PKG_SYSCONFDIR}/xfce4/xfconf
 #OWN_DIRS+=	${PKG_SYSCONFDIR}/xfce4/xfconf/xfce-perchannel-xml
 
-.include "../../devel/libglade/buildlink3.mk"
+#.include "../../devel/libglade/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../xfce4/xfconf/buildlink3.mk"
-#.include "../../graphics/tango-icon-theme/buildlink3.mk"
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 #.include "../../textproc/libxml2/buildlink3.mk"
 #.include "../../x11/gtk2/buildlink3.mk"
 .include "../../xfce4/libxfce4util/buildlink3.mk"
