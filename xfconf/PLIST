@@ -6,15 +6,6 @@ include/xfce4/xfconf-0/xfconf/xfconf-errors.h
 include/xfce4/xfconf-0/xfconf/xfconf-types.h
 include/xfce4/xfconf-0/xfconf/xfconf.h
 lib/libxfconf-0.la
-${PERL5_SUB_INSTALLARCHLIB}/perllocal.pod
-${PERL5_SUB_INSTALLVENDORARCH}/Xfce4/Xfconf.pm
-${PERL5_SUB_INSTALLVENDORARCH}/Xfce4/Xfconf/Install/Files.pm
-${PERL5_SUB_INSTALLVENDORARCH}/Xfce4/Xfconf/Install/xfconfperl-autogen.h
-${PERL5_SUB_INSTALLVENDORARCH}/Xfce4/Xfconf/Install/xfconfperl.h
-${PERL5_SUB_INSTALLVENDORARCH}/Xfce4/Xfconf/Install/xfconfperl.typemap
-${PERL5_SUB_INSTALLVENDORARCH}/auto/Xfce4/Xfconf/.packlist
-${PERL5_SUB_INSTALLVENDORARCH}/auto/Xfce4/Xfconf/Xfconf.so
-${PERL5_SUB_INSTALLVENDORMAN3DIR}/Xfce4::Xfconf.3
 lib/pkgconfig/libxfconf-0.pc
 lib/xfce4/xfconf/xfconfd
 share/dbus-1/services/org.xfce.Xfconf.service
