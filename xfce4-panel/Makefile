@@ -31,6 +31,10 @@ EGDIR=			${XFCE4_EGBASE}/panel
 CONF_FILES+=	${EGDIR}/default.xml ${PKG_SYSCONFDIR}/default.xml
 #.endfor
 
+.if ${OPSYS} == "Darwin"
+CONFIGURE_ARGS+=	--disable-visibility
+.endif
+
 .include "../../devel/libwnck/buildlink3.mk"
 .include "../../graphics/cairo/buildlink3.mk"
 #.include "../../graphics/tango-icon-theme/buildlink3.mk"

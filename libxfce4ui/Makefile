@@ -20,6 +20,10 @@ MAKE_DIRS+=	${PKG_SYSCONFDIR}/xfce4/xfconf/xfce-perchannel-xml/
 #OWN_DIRS+=	${PKG_SYSCONFDIR}/xfce4 ${PKG_SYSCONFDIR}/xfce4/xfconf
 #OWN_DIRS+=	${PKG_SYSCONFDIR}/xfce4/xfconf/xfce-perchannel-xml
 
+.if ${OPSYS} == "Darwin"
+CONFIGURE_ARGS+=	--disable-visibility
+.endif
+
 #.include "../../devel/libglade/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../xfce4/xfconf/buildlink3.mk"

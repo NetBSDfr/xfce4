@@ -15,6 +15,10 @@ MAKE_DIRS+=	${PREFIX}/include/xfce4
 BUILDLINK_API_DEPENDS.dbus+=		dbus>=1.0.0
 BUILDLINK_API_DEPENDS.dbus-glib+=	dbus-glib>=0.72
 
+.if ${OPSYS} == "Darwin"
+CONFIGURE_ARGS+=	--disable-visibility
+.endif
+
 .include "../../sysutils/dbus/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
 .include "../../xfce4/libxfce4util/buildlink3.mk"
