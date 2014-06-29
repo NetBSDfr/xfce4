@@ -10,4 +10,8 @@ PKGCONFIG_OVERRIDE=	libxfce4util/libxfce4util-1.0.pc.in
 
 MAKE_DIRS+=	${PREFIX}/include/xfce4
 
+.if ${OPSYS} == "Darwin"
+CONFIGURE_ARGS+=	--disable-visibility
+.endif
+
 .include "../../mk/bsd.pkg.mk"

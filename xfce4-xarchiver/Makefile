@@ -13,5 +13,5 @@ COMMENT=	Xfce archiver handler
 
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
-.include "../../xfce4/libxfce4gui/buildlink3.mk"
+#.include "../../xfce4/libxfce4gui/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

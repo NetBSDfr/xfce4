@@ -37,6 +37,10 @@ OWN_DIRS+=		${EGDIR}
 
 #BUILDLINK_API_DEPENDS.libnotify+=	libnotify>=0.4.0
 
+.if ${OPSYS} == "Darwin"
+CONFIGURE_ARGS+=	--disable-visibility
+.endif
+
 #.include "../../graphics/tango-icon-theme/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 #.include "../../sysutils/libnotify/buildlink3.mk"

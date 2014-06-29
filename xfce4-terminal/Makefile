@@ -19,6 +19,6 @@ MAKE_JOBS_SAFE=	no
 .include "../../x11/startup-notification/buildlink3.mk"
 .include "../../x11/vte/buildlink3.mk"
 .include "../../xfce4/libxfce4ui/buildlink3.mk"
-.include "../../x11/xfce4-exo/buildlink3.mk"
+.include "../../xfce4/xfce4-exo/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
