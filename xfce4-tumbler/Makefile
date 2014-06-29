@@ -4,7 +4,7 @@
 
 .include "../../xfce4/xfce4/Makefile.common"
 
-XFCE4_VERSION=	0.1.27
+XFCE4_VERSION=	0.1.30
 
 DISTNAME=	tumbler-${XFCE4_VERSION}
 PKGNAME=	xfce4-tumbler-${XFCE4_VERSION}
@@ -39,6 +39,7 @@ CFLAGS+=	-g
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/gdk-pixbuf2/buildlink3.mk"
+.include "../../multimedia/ffmpeg/buildlink3.mk"
 .include "../../sysutils/dbus/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
