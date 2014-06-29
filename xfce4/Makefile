@@ -9,7 +9,7 @@ CATEGORIES=	meta-pkgs
 COMMENT=	Xfce
 
 DEPENDS+=	tango-icon-theme-[0-9]*:../../graphics/tango-icon-theme
-DEPENDS+=	xfce4-icon-theme-[0-9]*:../../graphics/xfce4-icon-theme	
+#DEPENDS+=	xfce4-icon-theme-[0-9]*:../../graphics/xfce4-icon-theme	
 DEPENDS+=	xfce4-tumbler>=0.1.27:../../xfce4/xfce4-tumbler
 DEPENDS+=	xfce4-appfinder>=4.10.0:../../xfce4/xfce4-appfinder	
 DEPENDS+=	xfce4-desktop>=4.10.0:../../xfce4/xfce4-desktop
